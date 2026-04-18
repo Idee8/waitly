@@ -18,9 +18,9 @@ const interTight = Inter_Tight({
 });
 
 export const metadata: Metadata = {
-	title: "Revoks — Next.js + Notion Waitlist Template",
+	title: "Sino - AI-Powered Recipe Discovery and Creation",
 	description:
-		"A simple Next.js waitlist template with Notion as CMS and Resend to send emails created with React Email and Upstash Redis for rate limiting. Deployed on Vercel.",
+		"Sino is an AI-powered recipe discovery and creation platform that helps you find and create delicious recipes tailored to your tastes and dietary preferences. Join our waitlist for early access!",
 };
 
 export default function RootLayout({

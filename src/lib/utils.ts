@@ -29,7 +29,8 @@ export async function getNotionDatabaseRowCount(databaseId: string) {
     return allResults.length;
   } catch (error) {
     console.error("Error fetching database rows:", error);
-    throw error;
+    // Return 0 instead of throwing to allow page to load gracefully
+    return 0;
   }
 }
 // Simple referral code generator used in the Notion API route

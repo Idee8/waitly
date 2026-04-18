@@ -18,9 +18,9 @@ export default function Header() {
 			)}
 		>
 			<Link href="#" className="cursor-pointer">
-				<Button variant="secondary">
+				<Button variant="secondary" >
 					<NotionLogo />
-					Notion DB Sample
+					Sino
 				</Button>
 			</Link>
 
@@ -33,7 +33,7 @@ export default function Header() {
 				>
 					<Button variant="secondary">
 						<GithubLogo />
-						Use this template
+						Features
 					</Button>
 				</Link>
 			</div>
