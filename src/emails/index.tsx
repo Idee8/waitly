@@ -20,7 +20,7 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
 		<Html>
 			<Tailwind>
 				<Head>
-					<title>Welcome to Waitly</title>
+					<title>Welcome to Sino</title>
 					<Preview>Thanks for joining our waitlist! We'll keep you in the loop.</Preview>
 					<style>
 						{`
@@ -28,36 +28,36 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
             `}
 					</style>
 				</Head>
-				<Body className="bg-[#09090B] py-[40px]" style={{ fontFamily: "'Inter Tight', sans-serif" }}>
-					<Container className="bg-[#18181B] rounded-[8px] mx-auto p-[32px] max-w-[600px]">
+				<Body className="bg-[#ffffff] py-[40px]" style={{ fontFamily: "'Inter Tight', sans-serif" }}>
+					<Container className="bg-[#ffffff] rounded-[8px] mx-auto p-[32px] max-w-[600px]">
 						<Section className="mt-[16px] text-center">
-							<Text className="text-[28px] font-bold text-white m-0">
-								Welcome to <span className="text-[#DFFF1A]">Waitly</span>
+							<Text className="text-[28px] font-bold text-black m-0">
+								Welcome to <span className="text-[#95AD8B]">Sino</span>
 							</Text>
 
-							<Text className="text-[18px] text-[#A1A1AA] mt-[16px] mb-[16px]">
-								We're thrilled to have you join our waitlist
+							<Text className="text-[18px] text-black mt-[16px] mb-[16px]">
+								You’re officially on the early access list!
 							</Text>
 
 							<Hr className="border-solid border-[#27272A] my-[16px] w-[80px] mx-auto" />
 						</Section>
 
 						<Section>
-							<Text className="text-[16px] leading-[24px] text-white mt-[32px]">
-								Hi {userFirstname},
+							<Text className="text-[16px] leading-[24px] text-black mt-[32px]">
+								Hi{userFirstname},
 							</Text>
 
-							<Text className="text-[16px] leading-[24px] text-[#E4E4E7]">
-								Thanks for joining the waitlist for our Next.js + Notion CMS template! We're a small team at Idee8 working to help businesses like yours grow online, and we couldn't be more excited to have you with us.
+							<Text className="text-[16px] leading-[24px] text-black">
+								Thanks for joining Sino, your new AI-powered way to discover, create, and cook amazing recipes. We're on a mission to make cooking more fun, creative, and personalized for everyone, and we're excited to have you with us on this journey.
 							</Text>
 
-							<Text className="text-[16px] leading-[24px] text-[#E4E4E7]">
-								I'll personally keep you updated on our progress and let you know the moment it's ready for you. Got questions or ideas in the meantime? Just hit reply – I read every email and would love to hear from you.
+							<Text className="text-[16px] leading-[24px] text-black">
+								We will personally keep you updated on our progress and let you know the moment Sino is ready for you. Got questions or ideas in the meantime? Just hit reply, we read every email and would love to hear from you.
 							</Text>
 
 							<Section className="my-[32px] text-center">
 								<Button
-									className="bg-[#DFFF1A] text-[#09090B] font-bold py-[12px] px-[24px] rounded-[12px] no-underline text-center box-border"
+									className="bg-[#95AD8B] text-[#ffffff] font-bold py-[12px] px-[24px] rounded-[12px] no-underline text-center box-border"
 									href="https://cal.com/idee8/quick-chat"
 								>
 									<span style={{ display: 'inline-flex', alignItems: 'center' }}>
@@ -80,21 +80,21 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
 											<path d="M12 18H12.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
 											<path d="M16 18H16.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
 										</svg>
-										Book a call
+										Talk to us
 									</span>
 								</Button>
 							</Section>
 
-							<Text className="text-[16px] leading-[24px] text-[#E4E4E7]">
-								Want to see what we're up to? Follow us at <Link href="https://twitter.com/Idee8Agency" className="text-[#DFFF1A] underline">@Idee8Agency</Link> for behind-the-scenes updates and early previews.
+							<Text className="text-[16px] leading-[24px] text-black">
+								Want to see what we're up to? Follow us at <Link href="https://www.instagram.com/sino.recipes/" className="text-[#95AD8B] underline">@sino.recipes</Link> for behind-the-scenes updates and early previews.
 							</Text>
 
-							<Text className="text-[16px] leading-[24px] text-[#E4E4E7] mt-[24px]">
+							<Text className="text-[16px] leading-[24px] text-black mt-[24px]">
 								Cheers,
 							</Text>
 
-							<Text className="text-[16px] font-bold text-white mb-[32px]">
-								The Idee8 Team
+							<Text className="text-[16px] font-bold text-black mb-[32px]">
+								The Sino Team
 							</Text>
 						</Section>
 
@@ -102,17 +102,17 @@ const WaitlistEmail = ({ userFirstname }: { userFirstname: string }) => {
 
 						<Section>
 							<Text className="text-[12px] text-[#71717A] text-center m-0">
-								© {currentYear} Idee8 Agency. All rights reserved.
+								© {currentYear} Sino. All rights reserved.
 							</Text>
 							<Text className="text-[12px] text-[#71717A] text-center m-0">
-								123 Digital Avenue, Suite 101, Kigali, Rwanda
+								13 Fredman Drive, Sandton, Johannesburg, South Africa
 							</Text>
 							<Text className="text-[12px] text-[#71717A] text-center mt-[16px]">
-								<Link href="https://idee8.com/unsubscribe" className="text-[#DFFF1A]">
+								<Link href="mailto:mail@sino.recipes" className="text-[#95AD8B]">
 									Unsubscribe
 								</Link>{' '}
 								•{' '}
-								<Link href="https://idee8.com/privacy" className="text-[#DFFF1A]">
+								<Link href="mailto:mail@sino.recipes" className="text-[#95AD8B]">
 									Privacy Policy
 								</Link>
 							</Text>

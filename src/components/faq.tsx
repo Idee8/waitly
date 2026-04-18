@@ -13,10 +13,10 @@ export default function Faq() {
 					Frequently Asked Questions
 				</h2>
 				<p className="sm:text-base text-sm text-muted-foreground text-center">
-					Everything you need to know about the template. Find answers to common
-					questions.
+					Everything you need to know about Sino.
 				</p>
 			</div>
+
 			<div className="w-full max-w-lg">
 				<Accordion
 					type="single"
@@ -25,35 +25,46 @@ export default function Faq() {
 				>
 					<AccordionItem value="item-1">
 						<AccordionTrigger className="hover:no-underline">
-							What's included in this template?
+							What is Sino?
 						</AccordionTrigger>
 						<AccordionContent className="text-muted-foreground">
-							This template is a comprehensive Next.js starter kit designed to
-							help you build your next project quickly and efficiently. It
-							includes a range of features and components that you can use to
-							get started, including a responsive design, a dark mode toggle,
-							and a form component.
+							Sino is a recipe app that helps you discover meals, follow
+							step-by-step cooking instructions, and manage your cooking
+							experience with tools like timers, shopping lists, and an AI
+							assistant.
 						</AccordionContent>
 					</AccordionItem>
+
 					<AccordionItem value="item-2">
 						<AccordionTrigger className="hover:no-underline">
-							How do I get started with this template?
+							How does the AI assistant work?
 						</AccordionTrigger>
 						<AccordionContent className="text-muted-foreground">
-							To get started with this template, you can clone the repository
-							and install the dependencies using npm or yarn. Once you have the
-							dependencies installed, you can start the development server using
-							npm run dev or yarn dev.
+							The AI assistant helps with recipes, cooking tips,
+							substitutions, and more. It uses AI models to answer your
+							questions in real time.
 						</AccordionContent>
 					</AccordionItem>
+
 					<AccordionItem value="item-3">
 						<AccordionTrigger className="hover:no-underline">
-							How do I customize the template to my needs?
+							Is the AI assistant free to use?
 						</AccordionTrigger>
 						<AccordionContent className="text-muted-foreground">
-							You can customize the template to your needs by modifying the
-							components and pages in the src directory. You can also add your
-							own components and pages to the src directory.
+							Sino offers limited free monthly credits for the AI assistant.
+							You can upgrade to a paid plan for unlimited access and
+							additional features.
+						</AccordionContent>
+					</AccordionItem>
+
+					<AccordionItem value="item-4">
+						<AccordionTrigger className="hover:no-underline">
+							What are badges and how do I earn them?
+						</AccordionTrigger>
+						<AccordionContent className="text-muted-foreground">
+							Badges are rewards you earn for cooking meals and reaching
+							milestones. The more you cook and explore, the more badges you
+							unlock.
 						</AccordionContent>
 					</AccordionItem>
 				</Accordion>

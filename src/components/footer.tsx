@@ -6,32 +6,32 @@ export default function Footer() {
 			<div className="flex flex-row justify-between">
 				<ul className="flex flex-row gap-4">
 					<li className="dark:text-muted-foreground dark:hover:text-foreground cursor-pointer">
-						Built using Next.js
+						Our Socials
 					</li>
 					<li className="dark:text-muted-foreground dark:hover:text-foreground">
 						•
 					</li>
 					<li className="dark:text-muted-foreground dark:hover:text-foreground">
-						<Link href="https://github.com/revokslab/waitly">
-							Get this template
+						<Link href="mailto:info@bonangtech.com">
+							Our Sponsors
 						</Link>
 					</li>
 					<li className="dark:text-muted-foreground dark:hover:text-foreground">
 						•
 					</li>
 					<li className="dark:text-muted-foreground dark:hover:text-foreground cursor-pointer">
-						<Link href="https://kofi.com/idee8">Become a Sponsor</Link>
+						<Link href="mailto:info@bonangtech.com">Become a Sponsor</Link>
 					</li>
 				</ul>
 			</div>
 			<div>
 				<p className="text-sm text-muted-foreground">
-					&copy; {new Date().getFullYear()} Crafted by{" "}
+					&copy; {new Date().getFullYear()} Sino by{" "}
 					<Link
-						href="https://revoks.dev"
+						href="https://bonangtech.com"
 						className="font-semibold text-foreground"
 					>
-						Revoks
+						Bonang Technologies
 					</Link>
 				</p>
 			</div>
